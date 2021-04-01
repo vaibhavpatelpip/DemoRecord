@@ -21,8 +21,8 @@ namespace CppCLRWinformsProjekt {
 			//
 			//TODO: Konstruktorcode hier hinzufügen.
 			//
-			//VP- Restrict entry of text in no text and gendertext to max value
 			notext->Focus();
+			//VP- Restrict entry of text in no text and gendertext to max value
 			notext->MaxLength = 10;
 			gendertext->MaxLength = 1;
 			hobbiestext->MaxLength = 1000;
